@@ -1,0 +1,106 @@
+.timermainbasic{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/*Imput Section*/
+.inputsectionbasic{
+	display: flex;
+	flex-direction: row;
+
+}
+
+.inputsdivbasic{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	width: 50vw;
+}
+
+/*Minutes Input*/
+
+.minuteinputdivbasic{
+	display: flex;
+	flex-direction: row;
+}
+
+.minutesstringbasic{
+	padding: 5px;
+}
+
+.minuteinputbasic{
+
+}
+
+/*Seconds Input*/
+
+.secondsinputdivbasic{
+	display: flex;
+	flex-direction: row;
+}
+
+.secondsstringbasic{
+	padding: 5px;
+}
+
+.secondsinputbasic{
+
+}
+
+/*Buttons*/
+.buttondivbasic{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 50vw;
+}
+
+.buttonbasic{
+	width: 40%;
+	margin: 10px;
+	border: solid black;
+	padding: 6px;
+}
+
+.buttonbasic:hover{
+	border: solid purple;
+}
+
+/*Display Basic*/
+.timedisplaysectionbasic{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.countdowntitledivbasic{
+	font-size: 4em;
+
+}
+
+.digitdisplaydivbasic{
+	padding: 10px;
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+}
+
+.minutedisplaydivbasic{
+	
+}
+
+.secondsdisplaydivbasic{
+
+}
+
+.digitdisplaystringbasic{
+	font-size: 5em;
+	color: purple;
+}
+
+.timestringbasic{
+	font-size: 1.5em;
+}
+
